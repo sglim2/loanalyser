@@ -6,7 +6,7 @@
 
 QT       += core gui opengl
 
-TARGET = myMortgage
+TARGET = loanalizer
 TEMPLATE = app
 
 
