@@ -4,7 +4,7 @@
 #
 #-------------------------------------------------
 
-QT       += core gui opengl
+QT       += core gui opengl widgets
 
 TARGET = loanalyser
 TEMPLATE = app
@@ -20,7 +20,7 @@ mac:{
 LIBS    += -lqwt
 }else 
 unix:{
-LIBS    += -lqwt -lQtSvg
+LIBS    += -lqwt -lQt5Svg
 }
 QMAKE_CXXFLAGS += $$(CXXFLAGS)
 QMAKE_CFLAGS += $$(CFLAGS)
